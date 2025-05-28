@@ -27,28 +27,33 @@ const htmlContent = `<!DOCTYPE html>
     * {
         padding: 0;
         margin: 0;
+
         box-sizing: border-box;
     }
 
     body {
-      font-family: sans-serif;
       padding: 30px;
+
+      font-family: sans-serif;
       background: #f5f5f5;
     }
 
     form {
       max-width: 400px;
-      margin: auto;
-      background: #fff;
       padding: 20px;
+      margin: auto;
+
+      background: #fff;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     label {
       display: block;
+
       margin-top: 15px;
       margin-bottom: 5px;
+
       font-weight: bold;
     }
 
@@ -58,9 +63,9 @@ const htmlContent = `<!DOCTYPE html>
     }
 
     button {
-      margin-top: 20px;
-      padding: 10px;
       width: 100%;
+      padding: 10px;
+      margin-top: 20px;
     }
   </style>
 </head>
